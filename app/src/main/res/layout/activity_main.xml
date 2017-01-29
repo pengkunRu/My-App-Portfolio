@@ -24,41 +24,47 @@
         android:layout_height="64dp"
         android:text="@string/action_spotify_streamer"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp"
+        android:onClick="actionSpotifyStreamer"/>
 
     <Button
         android:id="@+id/action_scores_app"
         android:layout_width="264dp"
         android:layout_height="64dp"
         android:text="@string/action_scores_app"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="actionScoresApp"/>
 
     <Button
         android:id="@+id/action_libary_app"
         android:layout_width="264dp"
         android:layout_height="64dp"
         android:text="@string/action_libary_app"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="actionLibaryApp"/>
 
     <Button
         android:id="@+id/action_build_it_bigger"
         android:layout_width="264dp"
         android:layout_height="64dp"
         android:text="@string/action_build_it_bigger"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="actionBuildItBigger"/>
 
     <Button
         android:id="@+id/action_xyz_reader"
         android:layout_width="264dp"
         android:layout_height="64dp"
         android:text="@string/action_xyz_reader"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="actionXyzReader"/>
 
     <Button
         android:id="@+id/action_my_own_app"
         android:layout_width="264dp"
         android:layout_height="64dp"
         android:text="@string/action_my_own_app"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="actionMyOwnApp"/>
 
 </LinearLayout>
